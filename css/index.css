@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black; }
+
+#header {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/desktop/image-hero.jpg");
+  background-size: 100%; }
+  #header .navegation {
+    width: 75%;
+    height: auto;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto; }
+    #header .navegation nav ul {
+      display: flex;
+      list-style: none; }
+      #header .navegation nav ul li {
+        margin-left: 30px; }
+        #header .navegation nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-weight: 600;
+          padding-bottom: 10px; }
+        #header .navegation nav ul li a:hover {
+          border-bottom: 1px solid white; }
+  #header .box-text {
+    width: 600px;
+    height: auto;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 60px 170px; }
+    #header .box-text p {
+      text-transform: uppercase;
+      color: white;
+      font-size: 70px;
+      text-shadow: 0px 0px 3px black; }
+
+.description {
+  width: 100%;
+  height: 600px;
+  background: white; }
+  .description .description-box {
+    width: 90%;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    position: relative; }
+    .description .description-box img {
+      width: 810px;
+      margin: 0px 0px; }
+    .description .description-box .desc--box__text {
+      width: 550px;
+      height: 370px;
+      background-color: white;
+      padding: 30px 30px 0;
+      position: absolute;
+      bottom: 0;
+      left: 600px; }
+      .description .description-box .desc--box__text h3 {
+        text-transform: uppercase;
+        font-size: 40px;
+        padding-left: 60px;
+        padding-top: 100px;
+        letter-spacing: 4px; }
+      .description .description-box .desc--box__text p {
+        padding-left: 60px;
+        padding-top: 30px;
+        line-height: 25px;
+        font-weight: 600;
+        color: gray; }
+
+.gallery {
+  width: 100%;
+  height: auto;
+  margin-top: 100px; }
+  .gallery .gallery--header {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; }
+    .gallery .gallery--header h3 {
+      font-size: 40px;
+      text-transform: uppercase;
+      font-weight: 200; }
+    .gallery .gallery--header button {
+      width: 150px;
+      height: 40px;
+      outline: white;
+      border: none;
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      cursor: pointer; }
+  .gallery .gallery--box {
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap; }
+    .gallery .gallery--box .box {
+      margin: 20px 23px;
+      position: relative; }
+      .gallery .gallery--box .box p {
+        position: absolute;
+        bottom: 40px;
+        left: 20px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 40px;
+        font-weight: 400;
+        text-shadow: 0px 0px 3px black; }
+
+#footer {
+  width: 100%;
+  height: 150px;
+  margin-top: 70px;
+  background-color: black;
+  padding-top: 30px; }
+  #footer .footer--icons {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #footer .footer--icons .footer--sotials img {
+      margin-left: 20px;
+      padding-bottom: 10px;
+      cursor: pointer; }
+  #footer .footer--menu {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-between; }
+    #footer .footer--menu nav ul {
+      list-style: none;
+      display: flex; }
+      #footer .footer--menu nav ul li:first-child {
+        margin-left: 0px; }
+      #footer .footer--menu nav ul li {
+        margin-left: 30px; }
+        #footer .footer--menu nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-weight: 600;
+          padding-bottom: 10px; }
+        #footer .footer--menu nav ul li a:hover {
+          border-bottom: 1px solid white; }
+    #footer .footer--menu p {
+      color: white; }
+
+/*# sourceMappingURL=index.css.map */
